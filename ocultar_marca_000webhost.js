@@ -3,6 +3,7 @@ setInterval(() => {
     var imgElement = document.querySelector(content);
     if (imgElement) {
         imgElement.style.display = "none";
+        imgElement.remove();
         clearInterval();
     }
 }, 100);
