@@ -421,4 +421,6 @@ function menuClickItem(value) {
             menu.style.display = "none";
         }, 250)
     }
+    
+    alert("menuClickItem();\n" + value);
 }
