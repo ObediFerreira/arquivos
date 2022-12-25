@@ -28,7 +28,7 @@ arrayItem[13] = document.getElementById("wordpress").classList;
 arrayItem[14] = document.getElementById("3d").classList;
 
 function menuClickItem(value) {
-    // alert("menuClickItem();\n" + value);
+    alert("menuClickItem();\n" + value);
 
     if (value == "all-items") {
         // alert(value);
@@ -421,6 +421,4 @@ function menuClickItem(value) {
             menu.style.display = "none";
         }, 250)
     }
-    
-    alert("menuClickItem();\n" + value);
 }
