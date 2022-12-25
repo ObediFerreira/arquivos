@@ -426,6 +426,6 @@ function menuClickItem(value) {
 // Imput barra de pesquisa
 document.querySelectorAll('button[class="ijZMlecA"]').forEach((el, i) => {
     el.addEventListener('click', ()=>{
-        alert("");
+        alert("Teste");
     })
 })
