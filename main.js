@@ -1,4 +1,4 @@
 function main(){
-    alert('Github');
+    alert('Github Test');
 }
 main();
