@@ -1,4 +1,4 @@
 function main(){
-    alert('Pirata packs');
+    alert('Github');
 }
 main();
